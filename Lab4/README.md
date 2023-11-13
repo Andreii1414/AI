@@ -1,15 +1,11 @@
 Probleme de satisfacere a constrângerilor
-
 O problemă de satisfacere a constrângerilor (Constraint Satisfaction Problem):
 - o mulțime de variabile X={X1,..., Xn}
 - fiecare variabilă Xi poate lua valori dintr-un domeniu  Di
 - o mulțime de constrângeri C={C1 ,..., Ct} care specifică combinațiile permise de valori.
 O soluție pentru o astfel de problemă este o asignare de valori variabilelor a.î. toate constrângerile să fie satisfăcute.
-
 În definiție nu se impune nici o condiție asupra tipului variabilelor. Acestea pot fi întregi, logice sau de orice alt tip. Nici modul de definire a constrângerilor nu este limitat. Constrângerile pot fi date atât explicit, prin specificarea tuplelor de valori permise, cât şi implicit, prin relații (ex: Xi > 2).
-
 Graful restricțiilor: nodurile reprezintă variabilele, muchiile reprezintă restricțiile între variabile.
-
 Exemplu: Problema colorării unei hărți
 Considerăm o hartă cu n țări. Fiecare regiune/țară poate fi colorată cu o culoare dintr-o mulțime de culori asociate. Să se coloreze harta a.î. regiunile/țările vecine să fie colorate diferit.
 
